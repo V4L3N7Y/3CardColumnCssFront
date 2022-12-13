@@ -2,159 +2,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
 
-@media only screen and (max-width: 876px) {
+@media only screen and (max-width: 610px) {
 
     body {
-      background-color: lightblue;
-    }
-
-    .container {
-        position: relative;
-        flex-direction: column;
-        justify-content: center;
-        top: 650px;
-        left: 50%;
-        transform: translate(-50%,-50%); 
-    }
-
-    .box {
-        padding: 380px 160px 50px;
-    }
-
-    .box1 {
+        background-color: lightblue;
+      }
+  
+      .container {
+          flex-direction: column;
+          justify-content: center;
+          
+      }
+  
+      .box {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 200px;
+        height:600px;
+      }
+  
+      .box1 {
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
         background-color:hsl(31, 77%, 52%);
-    }
+      }
     
-    .box2 {
+      .box2 {
         background-color: hsl(184, 100%, 22%);   
-    }
+      }
     
-    .box3 {
+      .box3 {
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         background-color: hsl(179, 100%, 13%);
-    }
+      }
 
-    .box1 svg{
-        position: absolute;
-        top: 40px;
-        left: 40px;
-    }
+      .box1 svg{
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
 
-    .box2 svg{
-        position: absolute;
-        top: 470px;
-        left: 40px;
-    }
-    
-    .box3 svg{
-        position: absolute;
-        top: 900px;
-        left: 40px;
-    }
+      .box2 svg{
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
+     
+      .box2 svg{
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
 
-    .box1 h1 {
-        position: absolute;
+      .box3 svg{
+        position: relative;
+        top: 30px;
+        left: 30px;
+      }
+
+      .box1 h1 {
+        position: relative;
+        top: 30px;
+        left:60px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 40px;
+        color:white;    
+      }
+
+      .box2 h1 {
+        position: relative;
+        top: 30px;
+        left:60px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 40px;
+        color:white;    
+      }
+
+      .box3 h1 {
+        position: relative;
+        top: 30px;
+        left:60px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 40px;
+        color:white;    
+      }
+
+      .box1 p {
+        position: relative;
         top: 80px;
-        left: 40px;
-        font-family: 'Big Shoulders Display', cursive;
-        font-size: 40px;
-        color:white;    
-    }
+        left:50px;
+        max-width: 320px;
+        font-family: 'Lexend Deca', sans-serif;;
+        color:white;
+     }
 
-    .box2 h1 {
-        position: absolute;
-        top:510px;
-        left: 40px;
-        font-family: 'Big Shoulders Display', cursive;
-        font-size: 40px;
-        color:white;    
-    }
-
-    .box3 h1 {
-        position: absolute;
-        top: 940px;
-        left: 40px;
-        font-family: 'Big Shoulders Display', cursive;
-        font-size: 40px;
-        color:white;    
-    }
-
-    .box1 p {
-    position: absolute;
-    top: 180px;
-    max-width: 250px;
-    font-family: 'Lexend Deca', sans-serif;;
-    left:40px;
-    bottom: 100px;
-    color:white;
-   }
-
-   .box2 p {
-    position: absolute;
-    top: 600px;
-    max-width: 250px;
-    font-family: 'Lexend Deca', sans-serif;;
-    left:40px;
-    bottom: 100px;
-    color:white;
+     .box2 p {
+      position: relative;
+      top: 80px;
+      left:50px;
+      max-width: 300px;
+      font-family: 'Lexend Deca', sans-serif;;
+      color:white;
    }
 
    .box3 p {
-    position: absolute;
-    top: 1040px;
-    max-width: 250px;
+    position: relative;
+    top: 80px;
+    left:50px;
+    max-width: 300px;
     font-family: 'Lexend Deca', sans-serif;;
-    left:40px;
-    bottom: 100px;
     color:white;
-   }
+ }
 
-   .box1 button {
-    position: absolute;  
-    left: 50px;
-    top: 350px;
-    background-color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    border: none;
-    border-radius: 50px;
-    color: hsl(31, 77%, 52%);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+ .box1 button {
+  position: relative;
+  top: 250px;
+  left: 100px;
+background-color: white;
+font-family: 'Lexend Deca', sans-serif;
+border: none;
+border-radius: 50px;
+color: hsl(31, 77%, 52%);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
 
-  .box2 button {
-    position: absolute;  
-    left: 50px;
-    top: 780px;
-    background-color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    border: none;
-    border-radius: 50px;
-    color: hsl(184, 100%, 22%);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+.box2 button {
+  position: relative;
+  top: 250px;
+  left: 100px;
+background-color: white;
+font-family: 'Lexend Deca', sans-serif;
+border: none;
+border-radius: 50px;
+color: hsl(184, 100%, 22%);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
 
-  .box3 button {
-    position: absolute;  
-    left: 50px;
-    top: 1210px;
-    background-color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    border: none;
-    border-radius: 50px;
-    color: hsl(179, 100%, 13%);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
 
+.box3 button {
+  position: relative;
+  top: 250px;
+  left: 100px;
+background-color: white;
+font-family: 'Lexend Deca', sans-serif;
+border: none;
+border-radius: 50px;
+color: hsl(179, 100%, 13%);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
 }

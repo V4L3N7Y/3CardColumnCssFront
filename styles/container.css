@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
+@media screen and (min-width: 910px) {
+
+body {
+    background-color: lightblue;
+}    
 
 .container {
-    position: absolute;
+    position: relative;
     display: flex;
 	flex-direction: row;
 	justify-content: center;
-    top: 50%;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%,-50%); 
 }
 
 .box {
-    padding: 250px 100px 50px;
+    min-width: 300px;
+    min-height: 500px;
     display: block;
 }
 
@@ -35,26 +41,26 @@
 
 .box1 svg{
     position: relative;
-    bottom: 220px;
-    right: 70px
+    top: 30px;
+    left: 30px;
 }
 
 .box2 svg{
     position: relative;
-    bottom: 220px;
-    right: 70px
+    top: 30px;
+    left: 30px;
 }
 
 .box3 svg{
     position: relative;
-    bottom: 220px;
-    right: 70px
+    top: 30px;
+    left: 30px;
 }
 
 .box1 h1 {
     position: relative;
-    bottom: 220px;
-    right: 70px;
+    top: 30px;
+    left: 30px;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
     color:white;    
@@ -62,53 +68,53 @@
 
 .box2 h1 {
     position: relative;
-    bottom: 220px;
-    right: 70px;
+    top: 30px;
+    left: 30px;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
-    color:white;
+    color:white; 
 }
 
 .box3 h1 {
     position: relative;
-    bottom: 220px;
-    right: 70px;
+    top: 30px;
+    left: 30px;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
-    color:white;
+    color:white; 
 }
 
 .box1 p {
-    position: absolute;
-    max-width: 150px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    max-width: 250px;
     font-family: 'Lexend Deca', sans-serif;;
-    left:30px;
-    bottom: 100px;
     color:white;
 }
 
 .box2 p {
-    position: absolute;
-    max-width: 200px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    max-width: 250px;
     font-family: 'Lexend Deca', sans-serif;;
-    left:330px;
-    bottom: 100px;
     color:white;
 }
 
 .box3 p {
-    position: absolute;
-    max-width: 200px;
-    font-family: 'Lexend Deca', sans-serif;
-    left:590px;
-    bottom: 120px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    max-width: 250px;
+    font-family: 'Lexend Deca', sans-serif;;
     color:white;
 }
 
 .box1 button {
-  position: absolute;  
-  left: 60px;
-  top: 360px;
+  position: relative;
+  top: 150px;
+  left: 40px;
   background-color: white;
   font-family: 'Lexend Deca', sans-serif;
   border: none;
@@ -121,9 +127,9 @@
 }
 
 .box2 button {
-    position: absolute;  
-    left: 330px;
-    top: 360px;
+    position: relative;
+    top: 150px;
+    left: 40px;
     background-color: white;
     font-family: 'Lexend Deca', sans-serif;
     border: none;
@@ -136,9 +142,9 @@
   }
 
   .box3 button {
-    position: absolute;  
-    left: 590px;
-    top: 360px;
+    position: relative;
+    top: 150px;
+    left: 40px;
     background-color: white;
     font-family: 'Lexend Deca', sans-serif;
     border: none;
@@ -150,3 +156,4 @@
     display: inline-block;
   }
 
+}
